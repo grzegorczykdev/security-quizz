@@ -1,0 +1,26 @@
+{
+    "questions": [
+        {
+            "question": "What is the main purpose of two-factor authentication (2FA)?",
+            "choices": [
+                "To save your passwords online",
+                "To add an extra layer of security",
+                "To make logging in faster",
+                "To allow sharing accounts easily"
+            ],
+            "correct": "To add an extra layer of security",
+            "explanation": "2FA - It’s a security process that requires two different forms of identification to verify your identity. The first factor is usually knowledge-based (like a password), and the second is possession-based (like a code sent to your phone) or biometric-based (like a fingerprint). This extra layer of security makes it harder for unauthorized people to access your accounts."
+        },
+        {
+            "question": "What does HTTPS in a website's URL indicate?",
+            "choices": [
+                "The site is hosted on a fast server",
+                "The site encrypts data between you and the server",
+                "The site is free to use",
+                "The site is run by a government agency"
+            ],
+            "correct": "The site encrypts data between you and the server",
+            "explanation": "HTTPS stands for HyperText Transfer Protocol Secure. It ensures secure communication over the internet by encrypting the data transferred between your browser and the website. This protects sensitive information (like passwords or credit card details) from being intercepted by attackers. You can recognize HTTPS by the padlock symbol in the browser's address bar."
+        }
+    ]
+}
