@@ -1,4 +1,4 @@
-import Quiz from './Quiz.jsx'
+import Quiz from './components/Quiz/Quiz.jsx'
 import questions from './questions.json'
 
 function App() {

@@ -1,0 +1,56 @@
+@import "../../styles/vars.scss";
+
+.question {
+    font-weight: 700
+}
+
+
+
+ul {
+    margin-top: 20px;
+
+    li {
+        padding: 1rem 0.5rem;
+        border: 1px solid black;
+        border-radius: 5px;
+        margin: 0.5rem 0;
+
+    }
+
+}
+
+.correct-answer {
+    border: 2px solid $secondary;
+    background-color: rgba($secondary, 0.1);
+}
+
+.score {
+    margin-bottom: 2px;
+    font-weight: 600;
+
+    .good {
+        color: $secondary;
+    }
+
+    .wrong {
+        color: red;
+    }
+}
+
+.real-question {
+    li {
+
+        cursor: pointer;
+
+        &:hover {
+            color: white;
+            background-color: $secondary;
+        }
+    }
+
+    .selected-answer {
+        background-color: $secondary;
+        color: white;
+    }
+
+}

@@ -1,0 +1,43 @@
+@import "./vars.scss";
+
+html {
+    height: 100%;
+}
+
+body {
+    background: $background-primary;
+    font-family: 'Roboto Mono';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100vw;
+    overflow: hidden;
+    line-height: 1.1rem;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.diggy {
+    color: $secondary;
+}
+
+#root {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    height: 95%;
+    overflow: hidden;
+    // scrollbar-width: none;
+    max-width: 95vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    // min-height: -webkit-fill-available
+    top: 2%;
+}

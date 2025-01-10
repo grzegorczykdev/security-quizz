@@ -1,0 +1,103 @@
+@import "../../styles/vars.scss";
+
+.introduction {
+    box-sizing: border-box;
+    width: 90vw;
+    max-width: 800px;
+    height: 75%;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+.bubble {
+    --r: 1em;
+    --t: 1.5em;
+    margin-bottom: 10px;
+    padding: 1em;
+    border-inline: var(--t) solid rgba(0, 0, 0, 0);
+    border-radius: calc(var(--r) + var(--t)) / var(--r);
+    mask: radial-gradient(100% 100% at var(--_p) 0, rgba(0, 0, 0, 0) 99%, #000 102%) var(--_p) 100% / var(--t) var(--t) no-repeat, linear-gradient(#000 0 0) padding-box;
+    background: linear-gradient(135deg, #FE6D00, #1384C5) border-box;
+    color: #1A2330;
+    --_p: 0;
+    border-bottom-left-radius: 0 0;
+    background: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
+    .text {
+
+        animation: show 1s;
+
+    }
+
+    .dots {
+        display: none;
+        animation: pulse 1s;
+        animation-iteration-count: 2;
+    }
+
+
+}
+
+.diggy-talking {
+    display: flex;
+    justify-content: center;
+    align-items: self-end;
+    width: 100%;
+}
+
+.avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    background: white;
+    border-radius: 50%;
+    min-width: 20%;
+
+    img {
+        width: 100%;
+    }
+}
+
+.start-button {
+    font-family: 'Roboto Mono';
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .75rem 1.25rem;
+    border-radius: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: .15rem;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    border-color: $secondary;
+    background-color: $secondary;
+    cursor: pointer;
+
+    &:before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0%;
+        height: 100%;
+        background-color: darken($secondary, 5%);
+        transition: all .3s;
+        z-index: -1;
+    }
+
+    &:hover {
+        color: #fff;
+
+        &:before {
+            width: 100%;
+        }
+    }
+
+}
