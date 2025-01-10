@@ -1,8 +1,11 @@
-# React + Vite
+## **Safety Quiz** is an interactive quiz app developed for the dissemination of the Erasmus+ program DigiAct. The project aims to educate users about safety topics while tracking their scores through Firebase.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### **Built by**
+Sylwia Grzegorczyk – [LinkedIn Profile](https://www.linkedin.com/in/grzegorczyksylwia/)
 
-Currently, two official plugins are available:
+### **Technologies**
+React
+Firebase
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### **About**
+The app provides a fun and engaging way to test safety knowledge, with scores stored in Firebase for analysis. It was created as part of the Erasmus+ DigiAct program, promoting digital engagement and active citizenship.
